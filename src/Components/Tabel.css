@@ -1,0 +1,36 @@
+.table__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th {
+    background-color: #ccc;
+    font-weight: bold;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  td:first-child {
+    text-align: center;
+  }
+  
+  td:nth-child(2),
+  td:nth-child(3) {
+    font-weight: bold;
+  }
+  
+  td:last-child {
+    text-align: center;
+  }
+  
